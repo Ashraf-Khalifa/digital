@@ -3,10 +3,9 @@ const mysql = require("mysql");
 // Create a connection to the database
 const dbConnection = mysql.createConnection({
   host: "localhost",
-  user: "qtechnetworks_digital_passport",
-  port: "3306",
-  password: "HelloRami123",
-  database: "qtechnetworks_digital_passport",
+  user: "root",
+  password: "",
+  database: "sql_register",
 });
 
 dbConnection.connect((err) => {
